@@ -2,7 +2,9 @@
   "name": "kmp_template_web",
   "version": "1.0.0",
   "main": "app.js",
-  "scripts": {    "dev": "vite"  },
+  "scripts": {
+    "dev": "vite"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -1,52 +1,23 @@
-:root {
-  --bg: #0f172a;
-  --fg: #e2e8f0;
-  --muted: #94a3b8;
-  --card: #111827;
-  --card-border: #1f2937;
-  --accent: #38bdf8;
-  --radius: 14px;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 html, body {
-  height: 100%;
-  font-family: system-ui, sans-serif;
-  background: linear-gradient(180deg, var(--bg), #020617);
-  color: var(--fg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-family: system-ui, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
 
-.container {
-  width: 90%;
-  max-width: 600px;
-  padding: 2rem;
-}
-
-h1 {
-  margin-bottom: 2rem;
-  font-size: 2rem;
-}
-
-.kmp-message {
-  font-size: 1.5rem;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  background: var(--card);
-  border: 1px solid var(--card-border);
-  border-radius: var(--radius);
-  color: var(--accent);
-}
-
-.status {
-  color: var(--muted);
-  font-size: 1rem;
-}
+        .kmp-message {
+            font-size: 1.5rem;
+            text-align: center;
+            white-space: pre-line;
+        }
+        .container {
+            max-width: 500px;
+            width: 90%;
+            margin: 0 auto;
+            padding: 1rem;
+        }
