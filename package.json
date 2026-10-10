@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
-    "KMP_template_shared-shared": "file:../../AndroidStudioProjects/KMPTemplate/shared/build/dist/js/productionLibrary/KMP_template_shared-shared-1.0.0.tgz"
+    "@js-joda/core": "3.2.0",
+    "KMP_template_shared-shared": "file:../KMP_template_shared/shared/build/dist/js/productionLibrary"
   }
 }
