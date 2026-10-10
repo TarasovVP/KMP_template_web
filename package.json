@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@js-joda/core": "3.2.0",
+    "format-util": "^1.0.5",
     "KMP_template_shared-shared": "file:../KMP_template_shared/shared/build/dist/js/productionLibrary"
   }
 }
